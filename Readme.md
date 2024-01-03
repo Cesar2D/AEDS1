@@ -1,1 +1,1 @@
-Arquivos das atividades AEDS1 - Guias e EDs
+AEDS1 activity archives - Guides and EDs
