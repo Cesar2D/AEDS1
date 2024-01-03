@@ -541,9 +541,9 @@ void method_11(void)
 void method_12(void)
 {
     // variaveis
-    int lado = 0.0;
-    int area = 0.0;
-    int perimetro = 0.0;
+    int lado = 0;
+    int area = 0;
+    int perimetro = 0;
 
     // entradas
     printf("\nDigite o valor do lado do quadrado: ");
@@ -580,6 +580,7 @@ void method_13()
     printf("\nDigite o valor de um lado do retangulo: ");
     scanf("%d", &l1);
     getchar();
+
     printf("\nDigite o valor do segundo lado do retangulo: ");
     scanf("%d", &l2);
     getchar();
@@ -604,10 +605,10 @@ void method_13()
 void method_14()
 {
     // variaveis
-    int l1 = 0.0;
-    int l2 = 0.0;
-    int area = 0.0;
-    int perimetro = 0.0;
+    int l1 = 0;
+    int l2 = 0;
+    int area = 0;
+    int perimetro = 0;
 
     // entrada
     printf("\nDigite o valor do primeiro lado: ");
@@ -650,6 +651,7 @@ void method_15()
     printf("\nDigite o valor da altura: ");
     scanf("%lf", &h);
     getchar();
+
     printf("\nDigite o valor da base: ");
     scanf("%lf", &b);
     getchar();
@@ -674,9 +676,9 @@ void method_15()
 void method_16()
 {
     // variaveis
-    double lado = 0.0;
-    double altura = 0.0;
-    double area = 0.0;
+    double lado      = 0.0;
+    double altura    = 0.0;
+    double area      = 0.0;
     double perimetro = 0.0;
 
     // entradas
@@ -686,8 +688,11 @@ void method_16()
 
     // calculo matematico
     lado = lado * 2;
+
     altura = (lado * sqrt(3)) / 2;
+
     area = (pow(lado, 2) * sqrt(3)) / 4;
+
     perimetro = lado * 3;
 
     // saida
@@ -739,19 +744,24 @@ void method_18()
     double altu = 0.0;
     double volu = 0.0;
 
+    // entradas
     printf("\nDigite o valo do comprimento do paralelepipedo: ");
     scanf("%lf", &comp);
     getchar();
+
     printf("\nDigite o valo da largura do paralelepipedo: ");
     scanf("%lf", &larg);
     getchar();
+
     printf("\nDigite o valo da altura do paralelepipedo: ");
     scanf("%lf", &altu);
     getchar();
 
     // calculo matematico
     comp = comp / 6;
+    
     larg = larg / 6;
+    
     altu = altu / 6;
 
     volu = comp * larg * altu;
@@ -772,7 +782,7 @@ void method_18()
 void method_19()
 {
     // variaveis
-    double r = 0.0;
+    double r    = 0.0;
     double area = 0.0;
 
     // entradas
@@ -810,6 +820,7 @@ void method_20()
 
     // calculo matematico
     raio = (raio * 3)/8;
+    
     volume = (4 * M_PI* pow(raio,3))/3;
 
     // saida 
